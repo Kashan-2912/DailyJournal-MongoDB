@@ -1,0 +1,13 @@
+<%- include("partials/header") -%>
+
+<h1>Contact Us</h1>
+
+
+<p>
+    <% contact.forEach(function(line) { %>
+      <%= line %><br>
+    <% }); %>
+</p>
+  
+
+<%- include("partials/footer") -%>
